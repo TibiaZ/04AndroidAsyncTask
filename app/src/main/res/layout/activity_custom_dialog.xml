@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_custom_dialog"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.dam2.pmm_practica_05_javiersanzrozalen.CustomDialog"
+    android:orientation="vertical">
+
+    <TextView
+        android:text="@string/str_pregunta_customDialog"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textViewPreguntaJugar"
+        android:gravity="center"
+        android:textColor="@color/naranja_fuerte_toolbar"
+        android:textSize="25dp"/>
+
+    <TextView
+        android:text="@string/str_escribirNickname_customDialog"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textViewEscibirNickname"
+        android:gravity="center" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:hint="@string/str_nicknameHint_customDialog"
+        android:ems="10"
+        android:id="@+id/editTextNickname"
+        android:gravity="center_vertical|center" />
+
+    <RadioGroup
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_vertical|center_horizontal|center"
+        android:layout_gravity="center"
+        android:checkedButton="@+id/radioButtonMedio">
+
+        <RadioButton
+            android:text="@string/str_novato_customDialog"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/radioButtonNovato"
+            android:layout_weight="1"
+            android:textColor="@color/verde"/>
+
+        <RadioButton
+            android:text="@string/str_medio_customDialog"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/radioButtonMedio"
+            android:layout_weight="1" />
+
+        <RadioButton
+            android:text="@string/str_avanzado_customDialog"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/radioButtonAvanzado"
+            android:layout_weight="1"
+            android:textColor="@color/rojo"/>
+    </RadioGroup>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <Button
+            android:text="@string/str_btnJugar_customDialog"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/buttonJugar"
+            android:layout_weight="1"
+            android:background="@color/verde"/>
+
+        <Button
+            android:text="@string/str_btnVolver_customDialog"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/buttonVolver"
+            android:layout_weight="1"
+            android:background="@color/rojo"/>
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,39 @@
+<resources>
+    <string name="app_name">PMM_Practica_05_JavierSanzRozalen</string>
+
+    <!-- STRINGS PARA NUESTRO MAIN ACTIVITY -->
+    <string name="str_instrucciones">\n\n<b>Instrucciones del Casteñer Game:</b>\n\n
+    · Presionar los botones en el orden correcto.\n
+    · Cada vez el tiempo será menor.\n
+    · Si tienes huevos llegas a la fase 8 en avanzado.
+
+    </string>
+
+    <!--STRINGS PARA NUESTRO CUSTOM DIALOG-->
+    <string name="str_titulo_customDialog">¡Jugar al Castañer Game!</string>
+    <string name="str_pregunta_customDialog">¿Estás dispuesto a jugar a este juego castaña?</string>
+    <string name="str_escribirNickname_customDialog">Escribe tu castañer name:</string>
+    <string name="str_nicknameHint_customDialog">Nickname</string>
+    <string name="str_novato_customDialog">Novato</string>
+    <string name="str_medio_customDialog">Medio</string>
+    <string name="str_avanzado_customDialog">Avanzado</string>
+    <string name="str_btnJugar_customDialog">Jugar</string>
+    <string name="str_btnVolver_customDialog">Volver</string>
+
+    <!-- STRINGS PARA NUESTRA GAME ACTIVITY -->
+    <string name="string_fase">Fase</string>
+    <string name="string_porcentaje">/100</string>
+    <string name="str_btn1">1</string>
+    <string name="str_btn2">2</string>
+    <string name="str_btn3">3</string>
+    <string name="str_btn4">4</string>
+    
+    <!-- STRING PARA EL CustomDialogEnd -->
+    <string name="str_customDialogEnd_juegoTerminado">El Castañer Game ha finalizado</string>
+    <string name="str_customDialogEnd_felicidadesUsuario">Felicidades </string>
+    <string name="str_customDialogEnd_numFaseRecord">Has llegado hasta la fase </string>
+    <string name="str_customDialogEnd_cerrar">Cerrar</string>
+    <string name="str_customDialogEnd_seguirJugando">Seguir jugando</string>
+
+
+</resources>
